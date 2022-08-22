@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(237, 237, 237);
+}
+
+.container{
+   height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+p{
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+img{
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.class1{
+    box-shadow: 0.2px  0.2px 0.2px 0.2px  rgb(191, 184, 184);
+    border-radius: 2px;
+    margin: 10px;
+    position: relative;
+}
+
+button{
+    background: rgb(40, 40, 227);
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px;
+    width: 100px;
+}
+
+.btn-center{
+    /* width: 100px; */
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.checked{
+    color: orange;
+}
+
+.icon-center{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+svg{
+    width: 20px;
+    position: absolute;
+    top:5px;
+    left: 5px;
+}
